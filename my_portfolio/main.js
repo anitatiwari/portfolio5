@@ -1,4 +1,4 @@
-import './main.scss'
+import './scss/main.scss'
 
 document.getElementById("menu").addEventListener("click", menuOnClick);;
 
