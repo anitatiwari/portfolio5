@@ -1,4 +1,4 @@
-import './style.css'
+
 
 document.getElementById("menu").addEventListener("click", menuOnClick);;
 
