@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts</title>
+    <link rel="stylesheet" href="./scss/main.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./main.js" defer></script>
+</head>
+<body>
+    <header class="flex justify-end z-40 bg-black/[.2]md:bg-transparent">
+        <a href="index.html"><span class="logo text-2xl md:text-4xl m-20 ">Anita Tiwari</span></a>
+       
+         <div id="menu" class="md:m-5 m-3" >
+           <div id="menu-bar">
+             <div id="bar1" class="bar"></div>
+             <div id="bar2" class="bar"></div>
+             <div id="bar3" class="bar"></div>
+           </div>
+           <nav class="nav" id="nav">
+             <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#project">Portfolio</a></li>
+               <li><a href="#footer">Contact</a></li>
+             </ul>
+           </nav> 
+         </div>
+         
+         <div class="menu-bg" id="menu-bg"></div>
+     
+      </header>
+   <article>
+       <section>
+        <div class="bg-image hog_img w-full">
+            <img src="/public/img/hogwarts1.png" alt="" style="visibility: hidden;">
+        </div>
+
+        <div class="bg-text">
+         <a href="https://www.anugraph.com/files/hogwartsData/"> <button class="visit   transition md:delay-700 duration-300 ease-in-out"><span>Visit Website</span> </button></a>
+        </div>
+       </section>
+       <section class="flex  justify-around text-xl m-10 flex-col font-sans md:flex-row ">
+<p class="flex-initial m-5">
+    It was a massive assignment, with a lot of customer-requirements, some even conflicting, so we had to make sure to spend a considerable amount of time planning and structuring our solution.
+</p>
+<div>
+<p class="flex-initial m-5" >
+Customer-requirements were clearing the data, Sorting, Filterning, Details pops up, Blood-Status ,Select Prefect amd so on. The data only contains full names of students, but your solution is expected to split into first, middle, last, and optional nick names.
+
+</p>
+<p class="flex-initial m-5" >The data only contained full names of students, but our solution was to split into first, middle, last, and optional nick names.</p>
+</div>
+       </section>
+   </article>
+</body>
+</html>

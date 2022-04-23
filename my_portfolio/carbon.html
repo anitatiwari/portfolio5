@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crabon</title>
+    <link rel="stylesheet" href="./scss/main.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./main.js" defer></script>
+</head>
+<body>
+    <header class="flex justify-end z-40 bg-black/[.2]md:bg-transparent">
+        <a href="index.html"><span class="logo text-2xl md:text-4xl m-20 ">Anita Tiwari</span></a>
+       
+         <div id="menu" class="md:m-5 m-3" >
+           <div id="menu-bar">
+             <div id="bar1" class="bar"></div>
+             <div id="bar2" class="bar"></div>
+             <div id="bar3" class="bar"></div>
+           </div>
+           <nav class="nav" id="nav">
+             <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#project">Portfolio</a></li>
+               <li><a href="#footer">Contact</a></li>
+             </ul>
+           </nav> 
+         </div>
+         
+         <div class="menu-bg" id="menu-bg"></div>
+     
+      </header>
+
+    <article>
+    <section>
+        <div class="bg-image car_img w-full">
+            <img src="/public/img/carbon.png" alt="Carbon Website Screenshot" style="visibility: hidden;" >
+        </div>
+
+        <div class="bg-text">
+         <a href="https://www.anugraph.com/files/hogwartsData/"> <button class="visit   transition md:delay-700 duration-300 ease-in-out"><span>Visit Website</span> </button></a>
+        </div>
+       </section>
+       <section class="grid  justify-around text-xl m-10 grid-cols-1 md:gap-9 font-sans md:flex-row md:m-9 ">
+           <div class="flex flex-col md:m-20 md:flex-row">
+<p class=" m-5 w-100">
+  It was the group project in which we were able to create the carbon <span class="md:text-xl uppercase font-medium text-pink-800"> Calculator Website prototype</span> for the company named Advice. We fetched the PageSpeed API and Lighthouse result so that we can display relevent Data for calculating carbon Emission from the website.  
+</p>
+<img src="/public/img/carbon.png" alt="Carbon page" class="h-48 w-48 md:h-full md:w-96 rounded-xl">
+</div>
+<div class="flex flex-col md:flex-row-reverse md:m-20">
+<p class=" w-100 md:m-10">
+ The Solution we made have 2 pages in which first page is for the url of the website that you wanted to test and it has other fields to be filled in the form then when user submits, it forwarded to the result page with the Screenshot of the website with certain details and also the to make it interactive we have used tools,<span class="md:text-xl  uppercase font-medium text-pink-800">Toggle and Sliders</span> Toggle and Sliders so that user can see the changes and compare with the original data.
+
+</p>
+<img src="/public/img/carbon_result.png" alt="result page" class="h-48 w-48 md:h-full md:w-96 rounded-xl">
+</div>
+<div class="flex flex-col md:m-20">
+<p class=" md:m-10">
+    We also made the form through which you can store the result page in our database for future refrence and share result page with colleague.
+</p>
+<img src="/public/img/data-carbon.png" alt="result page" class="h-48 w-48 md:h-84 md:w-auto rounded-xl">
+</div>
+       </section>
+   </article>
+</body>
+</html>

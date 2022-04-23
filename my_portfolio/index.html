@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./scss/main.scss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="./main.js" defer></script>
+</head>
+<body>
+ <header class="flex justify-end ">
+   <a href="index.html"><span class="logo text-2xl md:text-4xl m-20 ">Anita Tiwari</span></a>
+  
+    <div id="menu" class="md:m-5 m-3" >
+      <div id="menu-bar">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#project">Portfolio</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav> 
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
+
+ </header>
+ <div class=" front flex  justify-around flex-col-reverse  md:flex md:flex-row lg:m-40">
+<div class="info md:max-w md:space-y-10  font-mono flex flex-col text-xl md:text-2xl md:text-xl items-center m-7 space-y-4 font-['Open_Sans']">
+  <p class="wel ">Welcome</p>
+  <p class="name   ">I'm <span class="md:text-4xl text-amber-900 uppercase">Anita Tiwari</span> </p>
+  <p class="desc ">Multimedia Design Student specialized in <span class="font-serif md:text-3xl  text-sky-800 uppercase ">Frontend Design</span> </p>
+  <button class="visit   transition md:delay-700 duration-300 ease-in-out"><span>Visit My Work</span> </button>
+</div>
+<!-- w-64 -->
+<!-- <div class=" shadow-md md:ml-30 mt-0"> -->
+<img src="/public/img/profile.jpg" alt="profilepic" class=" profile_pic h-48 w-48 object-cover  md:w-96  md:h-auto m-auto mt-20 md:mt-0 md:m-0 ">
+<!-- </div> -->
+</div>
+<!-- bg-gradient-to-r from-purple-400 via-purple-200 to-pink-300  -->
+<div class="">
+<div class="aboutme flex  justify-around flex-col  md:flex md:flex-row ml-10 md:justify-items-center">
+ 
+<div class="bg-pic h-auto md:w-96">
+  <div class="profile-2">
+<img src="/public/img/Allura - Freelancing.png" alt="" class="h-48 w-48 object-cover  md:w-96  md:h-auto m-auto mt-20 md:mt-0 md:m-0">
+  </div>
+</div>
+
+
+
+<div class="about md:w-96 text-xl leading-relaxed">
+  <p class="heading_about font-mono text-3xl m-auto">About</p>
+<p class="desc_me text-slate-800 font-serif ">I am a student at <span class="text-sky-800 uppercase ">KEA</span> Copenhagen School of Design and Technology currently studying in third Semester in frontend design elective as I have keen interest in desiging webpage and animation.</p>
+  <p class="font-serif"> I have knowledge of frameworks, wordpress, Scss, Vite, Html CSS as well as javascript. All the experiences in group projects have helped me grow as a creative and as a team player.
+  </p>
+  <p  class="font-serif "> Feel free to contact me!</p>
+ 
+
+</div>
+
+</div>
+<div class="line">
+
+</div>
+<div class="line m-4">
+
+</div>
+<div class="skills">
+<p class="head_skills font-mono text-2xl md:text-4xl md:m-20 ">My Skills</p>
+
+<div class="container">
+
+  <div class="container__progressbars  flex flex-row">
+
+    <div class="progressbar">
+      <svg class="progressbar__svg">
+        <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+      </svg>
+      <span class="progressbar__text shadow-html">HTML</span>
+    </div>
+
+    <div class="progressbar">
+      <svg class="progressbar__svg">
+        <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
+      </svg>
+      <span class="progressbar__text shadow-css">CSS</span>
+    </div>
+
+    <div class="progressbar">
+      <svg class="progressbar__svg">
+        <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-scss shadow-scss"> </circle>
+      </svg>
+      <span class="progressbar__text shadow-scss">SCSS</span>
+    </div>
+
+    <div class="progressbar">
+      <svg class="progressbar__svg">
+        <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-js shadow-js"> </circle>
+      </svg>
+      <span class="progressbar__text shadow-js">JavaScript</span>
+    </div>
+
+
+    <div class="progressbar">
+      <svg class="progressbar__svg">
+        <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-react shadow-react"> </circle>
+      </svg>
+      <span class="progressbar__text shadow-react">React.js</span>
+    </div>
+  
+  </div>
+</div>
+</div>
+</div>
+<h4 class="font-mono text-2xl md:text-3xl md:m-20 " id="project">My Recent Projects</h4>
+<div class="projects gap-4 grid grid-cols-1  md:gap-1 md:justify-items-center md:m-20 md:gap-10" >
+  <div class="max-w mx-auto  rounded-xl shadow-md overflow-hidden md:max-w-2xl md:mr-2">
+    <div class="md:flex ">
+      <div class="md:shrink-0">
+        <a href="carbon.html">
+        <img class="h-48 w-full object-cover md:h-72 md:w-96" src="/img/Capture.png" alt="Man looking at item at a store"></a>
+      </div>
+      <div class="p-8 ">
+        <div class="uppercase tracking-wide text-lg text-green-700 font-semibold">Carbon Calculator</div>
+        <a href="#" class="block mt-1 md:w-64 text leading-tight font-medium text-slate-700 hover:underline">Creating Carbon Calculator Website to measure sustainibility of the website using Carbon Emmision.</a>
+        <p class="mt-2 text-slate-500 md:whitespace-pre-wrap ">JavaScript/Scss/CSS/Html/Vite/ Github/Netlify</p>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-md mx-auto  rounded-xl shadow-md overflow-hidden md:max-w-2xl md:ml-2">
+    <div class="md:flex ">
+      <div class="md:shrink-0">
+        <a href="hogwarts.html">
+        <img class="h-48 w-full object-cover md:h-72 md:w-96" src="/img/XiKe2H.jpg" alt="Man looking at item at a store"></a>
+      </div>
+      <div class="p-8">
+        <div class="uppercase tracking-wide text-lg text-purple-700 font-semibold">Hogwarts Student List</div>
+        <a href="#" class="block mt-1 text leading-tight font-medium text-slate-700 hover:underline">The solution contains clearing the data, Sorting, Filtering, Details pops up, Blood-Status ,Select Prefect amd so on.</a>
+        <p class="mt-2 text-slate-500">JavaScript/Scss/Html/Vite</p>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-md mx-auto  rounded-xl shadow-md overflow-hidden md:max-w-2xl md:mr-2">
+    <div class="md:flex">
+      <div class="md:shrink-0">
+        <a href="react.html">
+        <img class="h-48 w-full object-cover md:h-72 md:w-96" src="/img/XiKe2H.jpg" alt="Man looking at item at a store"></a>
+      </div>
+      <div class="p-8">
+        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Carbon Calculator</div>
+        <a href="#" class="block mt-1 text-lg leading-tight font-medium text-slate-700  hover:underline md:w-64">Finding customers for your new business</a>
+        <p class="mt-2 text-slate-500 md:w-64">JavaScript/Scss/CSS/Html/Vite/ Github/Netlify</p>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-md mx-auto  rounded-xl shadow-md overflow-hidden md:max-w-2xl md:ml-2">
+    <div class="md:flex">
+      <div class="md:shrink-0">
+        <a href="garnkbh.html">
+        <img class="h-48 w-full object-cover md:h-72 md:w-96" src="/public/img/garn.jpg" alt="Man looking at item at a store">
+       
+      </a>
+      </div>
+      <div class="p-8">
+        <div class="uppercase tracking-wide text-lg text-pink-800 font-semibold">Garnkbh</div>
+        <p class="block mt-1 text leading-tight font-medium text-slate-700  hover:underline">Creating Social Media Content for StartUp GarnKBH </p>
+        <p class="mt-2 text-slate-700">JavaScript/Scss/Html/Adobe Premeire Pro/Illustrator/Motion Graphics</p>
+      </div>
+    </div>
+  </div>
+<footer>
+  <div class="contact bg-red-100" id="footer">
+    <h4 class="text-2xl  justify-items-center ">My Social Media Links</h4>
+    <ul class="grid grid-cols-1 md:grid-cols-4 md:gap-10 list-none justify-around text-lg md:text-xl  underline decoration-1 decoration-amber-300 text-slate-900 justify-items-center content-center" >
+<li><a href="" >Contact: at309407@gmail.com</a></li>
+<li class=""><a href="">Facebook</a></li>
+<li><a href="">Linkedin</a></li>
+<li><a href="">Github</a></li>
+
+</ul>
+
+  </div>
+</footer>
+</div>
+
+</body>
+</html>
