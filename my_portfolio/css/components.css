@@ -256,10 +256,10 @@ nav>li{
 }
 /* background img */
 .car_img {
-    background-image: url('/public/img/carbon.png');
+    background-image: url('https://www.anugraph.com/public/img/public/img/carbon.png');
 }
 .hog_img{
-    background-image: url('/public/img/hogwarts1.png');
+    background-image: url('https://www.anugraph.com/public/img/public/img/hogwarts1.png');
 }
 .garn_img{
     background-image: url('https://www.anugraph.com/files/seyi-ariyo-zlROZagixXY-unsplash.jpg');
