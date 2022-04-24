@@ -9,9 +9,10 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.0.24",
-    "vite": "^2.9.2"
+    "vite": "^2.9.2",
+    "sass": "^1.50.1"
+
   },
   "dependencies": {
-    "sass": "^1.50.1"
   }
 }
