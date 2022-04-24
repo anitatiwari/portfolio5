@@ -254,3 +254,48 @@ nav>li{
     
 
 }
+/* background img */
+.car_img {
+    background-image: url('/public/img/carbon.png');
+}
+.hog_img{
+    background-image: url('/public/img/hogwarts1.png');
+}
+.garn_img{
+    background-image: url('https://www.anugraph.com/files/seyi-ariyo-zlROZagixXY-unsplash.jpg');
+}
+.bg-image {
+    /* The image used */
+   
+  
+    /* Add the blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgba(0, 0, 0, 0.26); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: bold;
+    border: 3px solid #b4a7a7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 50px;
+    text-align: center; }
+  
