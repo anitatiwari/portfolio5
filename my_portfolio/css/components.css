@@ -91,17 +91,17 @@
   }
   @keyframes anim_circle-scss {
     to {
-      stroke-dashoffset: 132;
+      stroke-dashoffset: 102;
     }
   }
   @keyframes anim_circle-js {
     to {
-      stroke-dashoffset: 88;
+      stroke-dashoffset: 179;
     }
   }
   @keyframes anim_circle-react {
     to {
-      stroke-dashoffset: 387.2;
+      stroke-dashoffset: 357.2;
     }
   }
   /* burger_menu */
@@ -256,13 +256,16 @@ nav>li{
 }
 /* background img */
 .car_img {
-    background-image: url('https://www.anugraph.com/files/carbon.png');
+    background-image: url('https://www.anugraph.com/files/portfolio5/my_portfolio/public/img/carbon.png');
+    
 }
 .hog_img{
-    background-image: url('https://www.anugraph.com/files/hogwarts1.png');
+    background-image: url('https://www.anugraph.com/files/portfolio5/my_portfolio/public/img/hogwarts1.png');
+
 }
 .garn_img{
-    background-image: url('https://www.anugraph.com/files/seyi-ariyo-zlROZagixXY-unsplash.jpg');
+    background-image: url('./public/img/seyi-ariyo-zlROZagixXY-unsplash.jpg');
+   
 }
 .bg-image {
     /* The image used */
