@@ -1,13 +1,50 @@
+@import "./components.css";
+html{
+    --bg: #fff;
+    --bg-panel: #d3b8b8;
+    --color-heading: rgb(9, 80, 3); 
+    --color-text: #2b2929;
 
+    --border: rgba( 0, 0, 0,0.5)
+    --bg-img:linear-gradient(
+        45deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #daa749,
+        #bdbd42
+    );
+    --btn: linear-gradient(180deg, #6d215c 0%, #a54469 100%);
+  }
+  /* dark theme styling - Here, we set data-them as "dark"*/
+  html[data-theme='dark'] {
+    --bg: #131212;
+    --bg-panel: #4e4d4d;
+    --color-heading: #949356; 
+    --color-text: #e2dee2;
+   
+    --border: rgb(184, 174, 174);
+    --bg-img:linear-gradient(
+        45deg,
+        #aea7bb,
+        #968190,
+        #ca6780,
+        #ac6c57,
+        #504c46,
+        #3a3a35
+    );
+    --btn: linear-gradient(180deg, #3a3839 0%, #6b6064 100%);
+  }
 body{
-    background-color: rgba(245, 245, 245, 0.979);
-    color: rgb(24, 23, 23);
+    background-color: var(--bg);
+    color: var(--color-text);
 }
 
 .visit{
 
 
-background: linear-gradient(180deg, #6d215c 0%, #a54469 100%);
+background: var(--btn);
 padding: 0.6rem;
 border-radius: 10px;
 border: 1px solid;
@@ -151,6 +188,61 @@ text-transform: capitalize;
           font-family: sans-serif;
           line-height: 1.4em;
       }
+      .change-bg {
+        width: 320px;
+        height: 460px;
+        transform: translate(-60%,-30%);
+      }
       
 
 }
+
+  input[type=checkbox] { /* styling for input element */
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  
+  }
+  
+  label { /* styling for labels */
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 52px;
+    height: 27px;
+    background:var(--color-text);
+    float: right;
+    border-radius: 100px;
+    position: relative;
+   
+  }
+  
+label:after { /* styling for labels - on toggle */
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background: var(--bg);
+      border-radius: 100px;
+    -webkit-transition: 0.2s;
+    transition: 0.3s;
+  }
+  
+  input:checked + label { /* conditional check while toggling */
+    background: var(--color-text);
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 40px;
+  }
+  #footer{
+      background: var(--bg-img);
+      color: var(--color-text);
+  }

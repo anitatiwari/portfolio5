@@ -1,72 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garnkbh</title>
-    <link rel="stylesheet" href="./css/components.css">
-  <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="./main.js" defer></script>
-</head>
-<body>
-    <header class="flex justify-end z-40 bg-black/[.2] md:bg-transparent">
-        <a href="index.html"><span class="logo text-2xl md:text-4xl m-20 ">Anita Tiwari</span></a>
-       
-         <div id="menu" class="md:m-5 m-3" >
-           <div id="menu-bar">
-             <div id="bar1" class="bar"></div>
-             <div id="bar2" class="bar"></div>
-             <div id="bar3" class="bar"></div>
-           </div>
-           <nav class="nav" id="nav">
-             <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="index.html#project">Portfolio</a></li>
-               <li><a href="#footer">Contact</a></li>
-             </ul>
-           </nav> 
-         </div>
-         
-         <div class="menu-bg" id="menu-bg"></div>
-     
-      </header>
-   <article>
-    <section>
-        <div class="bg-image garn_img w-full">
-            <img src="https://www.anugraph.com/files/portfolio5/my_portfolio/public/img/hogwarts1.png" alt="" style="visibility: hidden;">
-        </div>
+<html lang="en" data-theme="light" >
 
-        <div class="bg-text">
-         <a href="https://www.anugraph.com/files/hogwartsData/"> <button class="visit   transition md:delay-700 duration-300 ease-in-out"><span>Visit Website</span> </button></a>
-        </div>
-       </section>
-       <section class="flex  justify-around text-xl m-10 flex-col font-sans ">
-        <p class="flex-initial m-5">
-            This was the collaborative project to build social media content for a start up GarnKBH. After researching, interviewing the target audience, We were able to created Website and some social media content for the company. We have created some motion graphics content for instagram and video content for youtube.
-</p>
-<p class="flex-initial m-5">
-    Problem formulation:
-"How can we create a digital solution for GARNkbh that can create awareness and can increase sales"
-</p>
-       </section>
-   </article>
-   <footer class="m-0">
-    <div class="contact bg-red-100 bg-gradient-to-r from-indigo-200 via-purple-300 to-pink-300   md:p-16 content-center font-serif " id="footer">
-      <h4 class="md:text-4xl text-2xl text-center p-4">My Social Media Links</h4>
-      <ul class="grid grid-cols-1  md:grid-cols-4 md:gap-10 list-none justify-around text-lg md:text-xl  decoration-amber-300 text-slate-900 content-center justify-items-center " >
-  <li class="hover:scale-125 hover:bg-white rounded" >
-   
-    at309407@gmail.com</li>
-  <li class="hover:scale-125 hover:bg-white rounded"><a href="">Facebook</a></li>
-  <li class="hover:scale-125 hover:bg-white rounded"><a href="">Linkedin</a></li>
-  <li class="hover:scale-125 hover:bg-white rounded"><a href="">Github</a></li>
-  
-  </ul>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garnkbh</title>
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="./main.js" defer></script>
+</head>
+
+<body>
+  <header class="flex justify-end z-40 bg-black/[.2] md:bg-transparent">
+    <a href="index.html"><span class="logo text-2xl md:text-4xl m-20 ">Anita Tiwari</span></a>
+    <div class="toggle-container">
+      <input type="checkbox" id="switch" name="theme" /><label for="switch" class=" md:m-3">Toggle</label>
+  </div>
+    <div id="menu" class="md:m-5 m-3">
+      <div id="menu-bar">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#project">Portfolio</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  </footer>
+
+    <div class="menu-bg" id="menu-bg"></div>
+
+  </header>
+  <article>
+    <section class="">
+      <div class="bg-image garn_img w-full">
+        <img src="https://www.anugraph.com/files/portfolio5/my_portfolio/public/img/hogwarts1.png" alt=""
+          style="visibility: hidden;">
+      </div>
+
+      <div class="bg-text">
+        <a href="https://www.anugraph.com/files/hogwartsData/"> <button
+            class="visit   transition md:delay-700 duration-300 ease-in-out"><span>Visit Website</span> </button></a>
+      </div>
+    </section>
+    <section class="flex  justify-around text-xl m-10 flex-col md:flex-row font-sans ">
+      <p class="flex-initial m-5 leading-9">
+        This was the collaborative project to build social media content for a start up GarnKBH. After researching,
+        interviewing the target audience, We were able to created Website and some social media content for the company.
+        We have created some motion graphics content for instagram and video content for youtube.
+      </p>
+      <div class=" leading-9">
+      <p>
+        In this project We included SEO to make our solution to reached out to the targeted audience.
+      </p>
+      <p class="  m-2 leading-9">
+       <span class="md:text-2xl text-amber-900">Problem formulation:</span> 
+        "How can we create a digital solution for GARNkbh that can create awareness and can increase sales"
+      </p>
+    </div>
+     <div>
+       <!-- <iframe src="" frameborder="0"></iframe> -->
+     </div>
+    </section>
+  </article>
+ 
+<footer class="m-0">
+  <div class=" contact    md:p-16 content-center font-serif " id="footer">
+    <h4 class="md:text-4xl text-2xl text-center p-4 ">My Social Media Links</h4>
+    <ul class="grid grid-cols-1  md:grid-cols-4 md:gap-10 list-none justify-around text-lg md:text-xl  decoration-amber-300 content-center justify-items-center " >
+<li class="hover:scale-125 hover:bg-white rounded " >
+ 
+  at309407@gmail.com</li>
+<li class="hover:scale-125 hover:bg-white rounded "><a href="">Facebook</a></li>
+<li class="hover:scale-125 hover:bg-white rounded "><a href="">Linkedin</a></li>
+<li class="hover:scale-125 hover:bg-white rounded "><a href="">Github</a></li>
+
+</ul>
+
+  </div>
+</footer>
 </body>
+
 </html>

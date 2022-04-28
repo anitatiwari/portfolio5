@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,9 @@
 <body>
     <header class="flex justify-end z-40 bg-black/[.2]md:bg-transparent">
         <a href="index.html"><span class="logo text-2xl md:text-4xl m-20 ">Anita Tiwari</span></a>
-       
+        <div class="toggle-container">
+          <input type="checkbox" id="switch" name="theme" /><label for="switch" class=" md:m-3">Toggle</label>
+      </div>
          <div id="menu" class="md:m-5 m-3" >
            <div id="menu-bar">
              <div id="bar1" class="bar"></div>
@@ -66,20 +68,21 @@
 </div>
        </section>
    </article>
-   <footer class="m-0">
-    <div class="contact bg-red-100 bg-gradient-to-r from-indigo-200 via-purple-300 to-pink-300   md:p-16 content-center font-serif " id="footer">
-      <h4 class="md:text-4xl text-2xl text-center p-4">My Social Media Links</h4>
-      <ul class="grid grid-cols-1  md:grid-cols-4 md:gap-10 list-none justify-around text-lg md:text-xl  decoration-amber-300 text-slate-900 content-center justify-items-center " >
-  <li class="hover:scale-125 hover:bg-white rounded" >
-   
-    at309407@gmail.com</li>
-  <li class="hover:scale-125 hover:bg-white rounded"><a href="">Facebook</a></li>
-  <li class="hover:scale-125 hover:bg-white rounded"><a href="">Linkedin</a></li>
-  <li class="hover:scale-125 hover:bg-white rounded"><a href="">Github</a></li>
   
-  </ul>
-  
-    </div>
-  </footer>
+<footer class="m-0">
+  <div class=" contact    md:p-16 content-center font-serif " id="footer">
+    <h4 class="md:text-4xl text-2xl text-center p-4 ">My Social Media Links</h4>
+    <ul class="grid grid-cols-1  md:grid-cols-4 md:gap-10 list-none justify-around text-lg md:text-xl  decoration-amber-300 content-center justify-items-center " >
+<li class="hover:scale-125 hover:bg-white rounded " >
+ 
+  at309407@gmail.com</li>
+<li class="hover:scale-125 hover:bg-white rounded "><a href="">Facebook</a></li>
+<li class="hover:scale-125 hover:bg-white rounded "><a href="">Linkedin</a></li>
+<li class="hover:scale-125 hover:bg-white rounded "><a href="">Github</a></li>
+
+</ul>
+
+  </div>
+</footer>
 </body>
 </html>
